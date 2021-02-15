@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Listener">
+
+	<listeners>
+		<listener class-name="listeners.Listeners" />
+	</listeners>
+	
+  <test name="Simple Test Suite">
+	<parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"></parameter>
+		<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.AbstractTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

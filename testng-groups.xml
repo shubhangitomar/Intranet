@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Groups Suite">
+  <test name="Simple Test Suite">
+  <parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"></parameter>
+	<groups>
+			<run>
+				<include name="loginpage"></include>
+			</run>
+		</groups>
+    <classes>
+      <class name="com.intranet.tests.AbstractTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

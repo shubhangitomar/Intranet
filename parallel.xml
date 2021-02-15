@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite">
+  <test name="chrome">
+	<parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="tests.DashboardTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Firefox">
+	<parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"></parameter>
+	<parameter name="browser" value="firefox"></parameter>
+    <classes>
+      <class name="tests.DashboardTest"/>
+		    </classes>
+  </test>
+</suite> <!-- Suite -->

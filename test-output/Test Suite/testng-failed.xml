@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test Suite]">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"/>
+  <test name="Simple Test Suite(failed)">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://intranet.einfochips.com/employee_intranet/portal/auth/login"/>
+    <classes>
+      <class name="tests.DashboardTest">
+        <methods>
+          <include name="login"/>
+          <include name="cleanup"/>
+          <include name="Search"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.DashboardTest -->
+    </classes>
+  </test> <!-- Simple Test Suite(failed) -->
+</suite> <!-- Failed suite [Test Suite] -->

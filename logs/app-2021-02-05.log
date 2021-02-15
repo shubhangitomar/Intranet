@@ -1,0 +1,13 @@
+07:51:26.163 INFO  tests.AbstractTest -Info Message Logged
+08:10:30.235 INFO  tests.AbstractTest -Info Message Logged
+08:12:12.769 INFO  tests.AbstractTest -Info Message Logged
+08:14:48.850 INFO  tests.AbstractTest -Info Message Logged
+08:50:07.692 INFO  tests.AbstractTest -Info Message Logged
+08:51:14.905 INFO  tests.AbstractTest -Info Message Logged
+12:53:54.652 INFO  tests.AbstractTest -Info Message Logged
+12:55:01.638 INFO  tests.AbstractTest -Info Message Logged
+16:28:42.537 INFO  tests.LoginTest -Info Message Logged
+16:31:43.333 INFO  tests.LoginTest -Info Message Logged
+16:32:46.382 INFO  tests.LoginTest -Info Message Logged
+16:33:20.469 INFO  tests.LoginTest -Info Message Logged
+16:37:59.391 INFO  tests.LoginTest -Info Message Logged

@@ -1,0 +1,5 @@
+17:06:00.490 INFO  tests.AbstractTest -Info Message Logged
+17:06:58.024 INFO  tests.AbstractTest -Info Message Logged
+17:08:35.663 INFO  tests.AbstractTest -Info Message Logged
+17:10:30.014 INFO  tests.AbstractTest -Info Message Logged
+17:11:07.429 INFO  tests.AbstractTest -Info Message Logged
